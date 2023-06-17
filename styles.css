@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    background-color: black;
+  }
+  /* Header */
+  header {
+    display: flex;
+  
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .heading {
+    color: white;
+  }
+  
+  .search-bar {
+    flex: 1;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .search-bar input {
+    border-radius: 20px;
+    background-color: black;
+  }
+  .buttons {
+    display: flex;
+  }
+  .buttons button {
+    border-radius: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+  }
+  /* About Us section */
+  #about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle {
+    background: yellow;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .tagline span {
+    color: white;
+  }
+  
+  /* Our Categories section */
+  #our-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+  }
+  .category > button {
+    border-radius: 20px;
+    background-color: yellow;
+  }
+  .category h3,
+  p {
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: row;
+    background-color: rgb(17, 15, 15);
+  }
+  
+  .footer-left {
+    margin-left: 80px;
+    color: white;
+  }
+  
+  .footer-middle ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 40px;
+    color: white;
+  }
+  
+  .footer-middle h1 {
+    margin-left: 130px;
+    color: white;
+  }
+  
+  .footer-middle li {
+    padding-top: 5px;
+  }
+  
+  .footer-middle ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-right {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .footer-right a {
+    padding-top: 10px;
+  }
+  
